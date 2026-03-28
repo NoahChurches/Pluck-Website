@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluck!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="hide_past_gigs()">
+    <a class="anchor" ID="top"></a>
+    <header>
+        <nav>
+            <!-- This is the nav bar. It should follow you as you scroll down the screen. When it gets too narrow, it should hide all but the title, align title to the left, and show the menu icon-->
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#watch">Watch</a></li>
+                    <li><a href="#listen">Listen</a></li>
+                    <li><a href="#shows">Shows</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#press kit">Press Kit</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="title">
+                <a href="#top">Pluck!</a>
+            </div>
+            <div class="social-links">
+                <a class="social-link" href="https://www.facebook.com/plucktrio" target="blank"><img src="/images/facebook-icon.png" alt="" width="36px"></a>
+                <a class="social-link" href="https://www.instagram.com/thepluckables/" target="blank"><img src="/images/instagram-icon.png" alt="" width="36px"></a>
+            </div>
+            <div class="sidebar-menu">
+                <a class="sidebar-button" onclick="sidebar_open()"><img src="images/menu-icon.png" height="32px"></a>
+                <!-- Secret Click Listener-->
+                <div id="click-catch" class="click-catch" onclick="sidebar_close()"></div>
+                <div class="sidebar-links" id="mySidebar">
+                    <a onclick="sidebar_close()"><img class="close-button" src="/images/close-icon.png" alt=""></a>
+                    <ul>
+                        <li><a href="#about" onclick="sidebar_close()">About</a></li>
+                        <li><a href="#watch" onclick="sidebar_close()">Watch</a></li>
+                        <li><a href="#listen" onclick="sidebar_close()">Listen</a></li>
+                        <li><a href="#shows" onclick="sidebar_close()">Shows</a></li>
+                        <li><a href="#gallery" onclick="sidebar_close()">Gallery</a></li>
+                        <li><a href="#press kit" onclick="sidebar_close()">Press Kit</a></li>
+                        <li><a href="#contact" onclick="sidebar_close()">Contact</a></li>
+                        <div class="social-links">
+                            <a class="social-link" href="https://www.facebook.com/plucktrio" target="blank"><img src="/images/facebook-icon.png" alt="" width="36px"></a>
+                            <a class="social-link" href="https://www.instagram.com/thepluckables/" target="blank"><img src="/images/instagram-icon.png" alt="" width="36px"></a>
+                        </div>
+                    </ul>
+                </div>    
+            </div>
+        </nav>
+    </header>
+    
+    <!--Hero Image-->
+    <div class="hero-image-container">
+        <img class="hero-image" src="/images/hero-shot.jpg" alt="">
+    </div>
+
+    <section>
+        <a class="anchor" ID="about"></a>
+        <h1>About</h1>
+        <div class="text-container">
+            <p>A trio exploring the vastness of guitar music (and other pluckable instruments) from around the world, 'Pluck!' is a musical adventure spanning Malian, flamenco, Brazilian, Japanese, Latin American, bluegrass, folk, gypsy-jazz, early-electric-guitar, Celtic, and many other styles of music. Join them as their armada of guitars pull into port for a night and let them regale you with the sounds they have collected on their journeys. Their repertoire consists of both traditional and modern music, as well as original music inspired by the styles they perform. Each player has their own take on plucked string music and they fuse their styles under a love of playfulness, improvisation, excellence, and a well-placed music dad joke.</p>
+        </div>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+    
+    <section>
+        <a class="anchor" ID="watch"></a>
+        <h1>Watch</h1>
+        <p>Let's talk about pluck blahdy blahdy blah</p>
+        <div class="youtube-container">
+            <iframe src="https://www.youtube.com/embed/xTxqInn6sko?si=gzvPqbrf6Y0sLitc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+    
+    <section>
+        <a class="anchor" ID="listen"></a>
+        <h1>Listen</h1>
+        <p>"Visitors' - Pluck's fisrt album.</p>
+        <div class="bandcamp-container">
+            <iframe style="border: 0; width: 350px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album=529054034/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" seamless><a href="https://pluckmusic.bandcamp.com/album/visitors">Visitors by Pluck!</a></iframe>
+        </div>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+    
+    <section>
+        <a class="anchor" ID="shows"></a>
+        <h1>Shows</h1>
+        <div class="gig">
+            <div>
+                <a>25th June 2026</a>
+                <a>Kew Courthouse big text yeah</a>
+            </div>
+            <a class="text-button" href="/fake-press-kit.zip" target="blank">Tickets</a>
+        </div>
+        <div class="gig">
+            <div>
+                <a>25th June 2026</a>
+                <a>Kew Courthouse big text yeah</a>
+            </div>
+            <a class="text-button" href="/fake-press-kit.zip" target="blank">Tickets</a>
+        </div>
+        <div class="gig">
+            <div>
+                <a>25th June 2026</a>
+                <a>Kew Courthouse big text yeah</a>
+            </div>
+            <a class="text-button" href="/fake-press-kit.zip" target="blank">Tickets</a>
+        </div>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+    
+    <section class="gallery">
+        <a class="anchor" ID="gallery"></a>
+        <h1>Gallery</h1>
+        <p>Here you'll find all the material you'll need to promote our gigs including bio, photos and links.</p>
+        <a class="text-button" href="/fake-press-kit.zip" target="blank"> Download Press Kit</a>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+
+    <section>
+        <a class="anchor" ID="press kit"></a>
+        <h1>Press Kit</h1>
+        <p>Here you'll find all the material you'll need to promote our gigs including bio, photos and links.</p>
+        <a class="text-button" href="/fake-press-kit.zip" target="blank"> Download Press Kit</a>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+
+    <section>
+        <a class="anchor" ID="contact"></a>
+        <h1>Contact</h1>
+        <p>email: plucktriomusic@gmail.com</p>
+        <p>phone: 0402132460</p>
+        <div class="social-links">
+                <a class="social-link" href="https://www.facebook.com/plucktrio" target="blank"><img src="/images/facebook-icon.png" alt="" width="36px"></a>
+                <a class="social-link" href="https://www.instagram.com/thepluckables/" target="blank"><img src="/images/instagram-icon.png" alt="" width="36px"></a>
+        </div>
+    </section>
+    <div class="divider-line">
+            <img src="/images/Divider Line/divider-line-left.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-middle.png" alt="">
+            <img src="/images/Divider Line/divider-line-body.png" alt="">
+            <img src="/images/Divider Line/divider-line-right.png" alt="">
+    </div>
+    <footer></footer>
+</body>
+
+<script>
+function sidebar_open() {
+  document.getElementById("mySidebar").style.right = "0px";
+  document.getElementById("mySidebar").style.boxShadow = "-20px 20px 20px rgba(0, 0, 0, 0.2)";
+  document.getElementById("click-catch").style.display = "block";
+}
+
+function sidebar_close() {
+  document.getElementById("mySidebar").style.right = "-290px";
+  document.getElementById("mySidebar").style.boxShadow = "-20px 20px 20px rgba(0, 0, 0, 0)";
+  document.getElementById("click-catch").style.display = "none";
+}
+
+function exit_sidebar() {
+    document.getElementById("mySidebar").style.right = "0px"
+    document.getElementById("click-catch").style.display = "none";
+}
+</script>
+
+</html>
